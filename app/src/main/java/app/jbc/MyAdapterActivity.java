@@ -38,7 +38,6 @@ public class MyAdapterActivity extends AppCompatActivity {
         comboBox.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                int pos = position;
                 int selectedPosition = position;
                 Toast.makeText(
                         MyAdapterActivity.this,
