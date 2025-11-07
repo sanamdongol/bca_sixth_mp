@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Welcome back" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="You've been missed" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Email" />
+
+        <EditText
+            android:layout_weight="1"
+            android:hint="Enter Email" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Password" />
+
+        <EditText
+            android:layout_weight="1"
+            android:hint="Enter Password" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_weight="1"
+            android:text="Login" />
+    </TableRow>
+
+
+</TableLayout>

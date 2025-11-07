@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My JBC App</string>
+    <string name="txt_email_hala">Email Address Halnus</string>
+    <string name="txt_welcome">Welcome Back!</string>
+    <string name="txt_missed">You\'ve been missed</string>
+
+  <!--  String[] days={"Sunday","Monday","Tuesday"};-->
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+
+    <string-array name="sixth_sem">
+        <item>String array</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
+</resources>

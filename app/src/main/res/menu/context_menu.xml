@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cmenu_one"
+        android:title="Context Menu 1" />
+    <item
+        android:id="@+id/cmenu_two"
+        android:title="Context Menu 2" />
+    <item
+        android:id="@+id/cmenu_three"
+        android:title="Context Menu 3" />
+    <item
+        android:id="@+id/cmenu_four"
+        android:title="Context Menu 4" />
+    <item
+        android:id="@+id/cmenu_five"
+        android:title="Context Menu 5" />
+    <item
+        android:id="@+id/cmenu_six"
+        android:title="Context Menu 6" />
+
+</menu>

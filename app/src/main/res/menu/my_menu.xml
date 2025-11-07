@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_game"
+        android:icon="@android:drawable/star_on"
+        android:title="Menu 1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/help"
+        android:icon="@android:drawable/star_off"
+        android:title="Menu 2" />
+
+    <item
+        android:id="@+id/file"
+        android:title="Main Menu">
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/create_new"
+                android:title="Create" />
+            <item
+                android:id="@+id/open"
+                android:title="Open" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@android:drawable/star_off"
+        android:title="Save" />
+   <!-- &lt;!&ndash; menu group &ndash;&gt;
+    <group android:id="@+id/group_delete"
+        >
+        <item
+            app:showAsAction="always"
+            android:id="@+id/menu_archive"
+            android:title="archive" />
+        <item
+            app:showAsAction="always"
+            android:id="@+id/menu_delete"
+            android:title="menu_delete" />
+    </group>-->
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dp"
+            android:text="S.No"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:padding="3dp"
+            android:text="First Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="3dp"
+            android:text="Middle Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="3dp"
+            android:text="Last Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="@dimen/title_pading"
+            android:text="Phone"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="1" />
+
+        <TextView android:text="John" />
+
+        <TextView android:text="Nye" />
+
+        <TextView android:text="Depp" />
+
+        <TextView android:text="Depp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="1"
+            android:layout_column="3"/>
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="Login"
+            android:layout_span="3"/>
+    </TableRow>
+
+</TableLayout>

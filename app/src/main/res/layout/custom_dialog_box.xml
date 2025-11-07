@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="VISTI NEPAL 2025\nAre you gonna visit this year? "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/tourist" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/btnLike"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:text="Yes" />
+
+        <Button
+            android:id="@+id/btnDislike"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="No" />
+    </RelativeLayout>
+</LinearLayout>
